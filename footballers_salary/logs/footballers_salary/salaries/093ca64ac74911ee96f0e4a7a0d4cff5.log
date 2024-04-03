@@ -1,0 +1,203 @@
+2024-02-09 13:45:01 [scrapy.utils.log] INFO: Scrapy 2.9.0 started (bot: footballers_salary)
+2024-02-09 13:45:01 [scrapy.utils.log] INFO: Versions: lxml 4.9.1.0, libxml2 2.10.1, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.1, Twisted 22.10.0, Python 3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1w  11 Sep 2023), cryptography 37.0.4, Platform Windows-10-10.0.19041-SP0
+2024-02-09 13:45:01 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'footballers_salary',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs\\footballers_salary\\salaries\\093ca64ac74911ee96f0e4a7a0d4cff5.log',
+ 'NEWSPIDER_MODULE': 'footballers_salary.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['footballers_salary.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-02-09 13:45:01 [asyncio] DEBUG: Using selector: SelectSelector
+2024-02-09 13:45:01 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-02-09 13:45:01 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-02-09 13:45:01 [scrapy.extensions.telnet] INFO: Telnet Password: aee931dd99a511d6
+2024-02-09 13:45:01 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-02-09 13:45:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-02-09 13:45:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-02-09 13:45:02 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-02-09 13:45:02 [scrapy.core.engine] INFO: Spider opened
+2024-02-09 13:45:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-02-09 13:45:02 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-02-09 13:45:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://salarysport.com/robots.txt> (referer: None)
+2024-02-09 13:45:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://salarysport.com/football/premier-league/chelsea-f.c./> from <GET https://salarysport.com/football/premier-league/chelsea-f.c.>
+2024-02-09 13:45:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://salarysport.com/football/premier-league/manchester-united-f.c./> from <GET https://salarysport.com/football/premier-league/manchester-united-f.c.>
+2024-02-09 13:45:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://salarysport.com/football/premier-league/manchester-united-f.c./> (referer: None)
+2024-02-09 13:45:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://salarysport.com/football/premier-league/chelsea-f.c./> (referer: None)
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Raphaël Varane', 'week_wage': '£350,000', 'monthly_wage': '£18,200,000', 'footballer_age': '30', 'position': 'D C', 'country': 'France'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Marcus Rashford', 'week_wage': '£300,000', 'monthly_wage': '£15,600,000', 'footballer_age': '25', 'position': 'AM L, ST', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Casemiro', 'week_wage': '£300,000', 'monthly_wage': '£15,600,000', 'footballer_age': '31', 'position': 'DM', 'country': 'Brazil'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Jadon Sancho', 'week_wage': '£275,000', 'monthly_wage': '£14,300,000', 'footballer_age': '23', 'position': 'AM RLC', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Bruno Fernandes', 'week_wage': '£250,000', 'monthly_wage': '£13,000,000', 'footballer_age': '28', 'position': 'AM RC', 'country': 'Portugal'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Anthony Martial', 'week_wage': '£250,000', 'monthly_wage': '£13,000,000', 'footballer_age': '27', 'position': 'AM L, ST', 'country': 'France'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Luke Shaw', 'week_wage': '£200,000', 'monthly_wage': '£10,400,000', 'footballer_age': '27', 'position': 'D LC', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Mason Mount', 'week_wage': '£200,000', 'monthly_wage': '£10,400,000', 'footballer_age': '24', 'position': 'AM RLC', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Harry Maguire', 'week_wage': '£200,000', 'monthly_wage': '£10,400,000', 'footballer_age': '30', 'position': 'D C', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Christian Eriksen', 'week_wage': '£170,000', 'monthly_wage': '£8,840,000', 'footballer_age': '31', 'position': 'DM, AM C', 'country': 'Denmark'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Victor Lindelöf', 'week_wage': '£170,000', 'monthly_wage': '£8,840,000', 'footballer_age': '28', 'position': 'D C', 'country': 'Sweden'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': None, 'week_wage': None, 'monthly_wage': None, 'footballer_age': None, 'position': None, 'country': None}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Antony', 'week_wage': '£150,000', 'monthly_wage': '£7,800,000', 'footballer_age': '23', 'position': 'AM R', 'country': 'Brazil'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Donny van de Beek', 'week_wage': '£140,000', 'monthly_wage': '£7,280,000', 'footballer_age': '26', 'position': 'AM C', 'country': 'Netherlands'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Lisandro Martínez', 'week_wage': '£120,000', 'monthly_wage': '£6,240,000', 'footballer_age': '25', 'position': 'D LC', 'country': 'Argentina'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'André Onana', 'week_wage': '£110,000', 'monthly_wage': '£5,720,000', 'footballer_age': '27', 'position': 'GK', 'country': 'Cameroon'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Aaron Wan-Bissaka', 'week_wage': '£100,000', 'monthly_wage': '£5,200,000', 'footballer_age': '25', 'position': 'D R', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Diogo Dalot', 'week_wage': '£87,000', 'monthly_wage': '£4,524,000', 'footballer_age': '24', 'position': 'D/WB RL', 'country': 'Portugal'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Rasmus Højlund', 'week_wage': '£78,000', 'monthly_wage': '£4,056,000', 'footballer_age': '20', 'position': 'ST', 'country': 'Denmark'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Sergio Reguilón', 'week_wage': '£78,000', 'monthly_wage': '£4,056,000', 'footballer_age': '26', 'position': 'D/WB L', 'country': 'Spain'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Scott McTominay', 'week_wage': '£78,000', 'monthly_wage': '£4,056,000', 'footballer_age': '26', 'position': 'DM, AM C', 'country': 'Scotland'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Tom Heaton', 'week_wage': '£62,000', 'monthly_wage': '£3,224,000', 'footballer_age': '37', 'position': 'GK', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': None, 'week_wage': None, 'monthly_wage': None, 'footballer_age': None, 'position': None, 'country': None}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Alejandro Garnacho', 'week_wage': '£53,000', 'monthly_wage': '£2,756,000', 'footballer_age': '19', 'position': 'AM RL, ST', 'country': 'Argentina'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Jonny Evans', 'week_wage': '£50,000', 'monthly_wage': '£2,600,000', 'footballer_age': '35', 'position': 'D C', 'country': 'N.Ireland'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Tyrell Malacia', 'week_wage': '£47,000', 'monthly_wage': '£2,444,000', 'footballer_age': '23', 'position': 'D/WB L', 'country': 'Netherlands'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Altay Bayındır', 'week_wage': '£43,000', 'monthly_wage': '£2,236,000', 'footballer_age': '25', 'position': 'GK', 'country': 'Türkiye'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Sofyan Amrabat', 'week_wage': '£30,000', 'monthly_wage': '£1,560,000', 'footballer_age': '26', 'position': 'DM', 'country': 'Morocco'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Amad Diallo', 'week_wage': '£28,000', 'monthly_wage': '£1,456,000', 'footballer_age': '20', 'position': 'AM RLC, F C', 'country': 'Ivory Coast'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Facundo Pellistri', 'week_wage': '£27,000', 'monthly_wage': '£1,404,000', 'footballer_age': '21', 'position': 'AM R', 'country': 'Uruguay'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Hannibal', 'week_wage': '£13,000', 'monthly_wage': '£676,000', 'footballer_age': '20', 'position': 'AM C', 'country': 'Tunisia'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/manchester-united-f.c./>
+{'name': 'Kobbie Mainoo', 'week_wage': '£10,000', 'monthly_wage': '£520,000', 'footballer_age': '18', 'position': 'DM, AM C', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Raheem Sterling', 'week_wage': '£350,000', 'monthly_wage': '£18,200,000', 'footballer_age': '28', 'position': 'AM RL', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Christopher Nkunku', 'week_wage': '£300,000', 'monthly_wage': '£15,600,000', 'footballer_age': '25', 'position': 'AM RLC, F C', 'country': 'France'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Reece James', 'week_wage': '£250,000', 'monthly_wage': '£13,000,000', 'footballer_age': '23', 'position': 'D RC', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Wesley Fofana', 'week_wage': '£230,000', 'monthly_wage': '£11,960,000', 'footballer_age': '22', 'position': 'D C', 'country': 'France'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Ben Chilwell', 'week_wage': '£190,000', 'monthly_wage': '£9,880,000', 'footballer_age': '26', 'position': 'D/WB L', 'country': 'England'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Enzo Fernández', 'week_wage': '£180,000', 'monthly_wage': '£9,360,000', 'footballer_age': '22', 'position': 'DM, AM C', 'country': 'Argentina'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Mykhaylo Mudryk', 'week_wage': '£150,000', 'monthly_wage': '£7,800,000', 'footballer_age': '22', 'position': 'AM RLC', 'country': 'Ukraine'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Moisés Caicedo', 'week_wage': '£140,000', 'monthly_wage': '£7,280,000', 'footballer_age': '21', 'position': 'DM', 'country': 'Ecuador'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Benoît Badiashile', 'week_wage': '£120,000', 'monthly_wage': '£6,240,000', 'footballer_age': '22', 'position': 'D C', 'country': 'France'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Nicolas Jackson', 'week_wage': '£120,000', 'monthly_wage': '£6,240,000', 'footballer_age': '22', 'position': 'AM RLC, F C', 'country': 'Senegal'}
+2024-02-09 13:45:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Marc Cucurella', 'week_wage': '£110,000', 'monthly_wage': '£5,720,000', 'footballer_age': '24', 'position': 'D LC, M L', 'country': 'Spain'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': None, 'week_wage': None, 'monthly_wage': None, 'footballer_age': None, 'position': None, 'country': None}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Noni Madueke', 'week_wage': '£100,000', 'monthly_wage': '£5,200,000', 'footballer_age': '21', 'position': 'AM RLC', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Malo Gusto', 'week_wage': '£100,000', 'monthly_wage': '£5,200,000', 'footballer_age': '20', 'position': 'D/WB R, M C', 'country': 'France'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Carney Chukwuemeka', 'week_wage': '£100,000', 'monthly_wage': '£5,200,000', 'footballer_age': '19', 'position': 'AM C', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Thiago Silva', 'week_wage': '£96,000', 'monthly_wage': '£4,992,000', 'footballer_age': '38', 'position': 'D C', 'country': 'Brazil'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Axel Disasi', 'week_wage': '£78,000', 'monthly_wage': '£4,056,000', 'footballer_age': '25', 'position': 'D C', 'country': 'France'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Armando Broja', 'week_wage': '£78,000', 'monthly_wage': '£4,056,000', 'footballer_age': '21', 'position': 'AM RL, ST', 'country': 'Albania'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Trevoh Chalobah', 'week_wage': '£77,000', 'monthly_wage': '£4,004,000', 'footballer_age': '23', 'position': 'D RC, DM', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Levi Colwill', 'week_wage': '£75,000', 'monthly_wage': '£3,900,000', 'footballer_age': '20', 'position': 'D LC', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Roméo Lavia', 'week_wage': '£73,000', 'monthly_wage': '£3,796,000', 'footballer_age': '19', 'position': 'DM', 'country': 'Belgium'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Đorđe Petrović', 'week_wage': '£70,000', 'monthly_wage': '£3,640,000', 'footballer_age': '23', 'position': 'GK', 'country': 'Serbia'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': None, 'week_wage': None, 'monthly_wage': None, 'footballer_age': None, 'position': None, 'country': None}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Robert Sánchez', 'week_wage': '£68,000', 'monthly_wage': '£3,536,000', 'footballer_age': '25', 'position': 'GK', 'country': 'Spain'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Lesley Ugochukwu', 'week_wage': '£50,000', 'monthly_wage': '£2,600,000', 'footballer_age': '19', 'position': 'DM', 'country': 'France'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Deivid Washington', 'week_wage': '£42,000', 'monthly_wage': '£2,184,000', 'footballer_age': '18', 'position': 'ST', 'country': 'Brazil'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Malang Sarr', 'week_wage': '£34,000', 'monthly_wage': '£1,768,000', 'footballer_age': '24', 'position': 'D LC', 'country': 'France'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Marcus Bettinelli', 'week_wage': '£29,000', 'monthly_wage': '£1,508,000', 'footballer_age': '31', 'position': 'GK', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Cole Palmer', 'week_wage': '£22,000', 'monthly_wage': '£1,144,000', 'footballer_age': '21', 'position': 'AM RLC', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Conor Gallagher', 'week_wage': '£17,000', 'monthly_wage': '£884,000', 'footballer_age': '23', 'position': 'AM C', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Ian Maatsen', 'week_wage': '£11,000', 'monthly_wage': '£572,000', 'footballer_age': '21', 'position': 'D/WB L, M C', 'country': 'Netherlands'}
+2024-02-09 13:45:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://salarysport.com/football/premier-league/chelsea-f.c./>
+{'name': 'Jamie Cumming', 'week_wage': '£10,000', 'monthly_wage': '£520,000', 'footballer_age': '23', 'position': 'GK', 'country': 'England'}
+2024-02-09 13:45:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-02-09 13:45:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1271,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 176398,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/302': 2,
+ 'elapsed_time_seconds': 3.414999,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 2, 9, 12, 45, 6, 47372),
+ 'httpcompression/response_bytes': 446855,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 64,
+ 'log_count/DEBUG': 72,
+ 'log_count/INFO': 10,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2024, 2, 9, 12, 45, 2, 632373)}
+2024-02-09 13:45:06 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -1,0 +1,13 @@
+setup.py
+footballers_salary/__init__.py
+footballers_salary/items.py
+footballers_salary/middlewares.py
+footballers_salary/pipelines.py
+footballers_salary/settings.py
+footballers_salary/spiders/__init__.py
+footballers_salary/spiders/salaries.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

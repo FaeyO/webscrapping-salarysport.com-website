@@ -1,0 +1,2 @@
+[scrapy]
+settings = footballers_salary.settings

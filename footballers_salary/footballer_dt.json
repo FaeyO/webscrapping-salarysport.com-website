@@ -1,0 +1,578 @@
+[
+    {
+        "team": "chelsea-f.c.",
+        "name": "Raheem Sterling",
+        "week_wage": "£350,000",
+        "monthly_wage": "£18,200,000",
+        "footballer_age": "28",
+        "position": "AM RL",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Christopher Nkunku",
+        "week_wage": "£300,000",
+        "monthly_wage": "£15,600,000",
+        "footballer_age": "25",
+        "position": "AM RLC, F C",
+        "country": "France"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Reece James",
+        "week_wage": "£250,000",
+        "monthly_wage": "£13,000,000",
+        "footballer_age": "23",
+        "position": "D RC",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Wesley Fofana",
+        "week_wage": "£230,000",
+        "monthly_wage": "£11,960,000",
+        "footballer_age": "22",
+        "position": "D C",
+        "country": "France"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Ben Chilwell",
+        "week_wage": "£190,000",
+        "monthly_wage": "£9,880,000",
+        "footballer_age": "26",
+        "position": "D/WB L",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Enzo Fernández",
+        "week_wage": "£180,000",
+        "monthly_wage": "£9,360,000",
+        "footballer_age": "22",
+        "position": "DM, AM C",
+        "country": "Argentina"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Mykhaylo Mudryk",
+        "week_wage": "£150,000",
+        "monthly_wage": "£7,800,000",
+        "footballer_age": "22",
+        "position": "AM RLC",
+        "country": "Ukraine"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Moisés Caicedo",
+        "week_wage": "£140,000",
+        "monthly_wage": "£7,280,000",
+        "footballer_age": "21",
+        "position": "DM",
+        "country": "Ecuador"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Benoît Badiashile",
+        "week_wage": "£120,000",
+        "monthly_wage": "£6,240,000",
+        "footballer_age": "22",
+        "position": "D C",
+        "country": "France"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Nicolas Jackson",
+        "week_wage": "£120,000",
+        "monthly_wage": "£6,240,000",
+        "footballer_age": "22",
+        "position": "AM RLC, F C",
+        "country": "Senegal"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Marc Cucurella",
+        "week_wage": "£110,000",
+        "monthly_wage": "£5,720,000",
+        "footballer_age": "24",
+        "position": "D LC, M L",
+        "country": "Spain"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": null,
+        "week_wage": null,
+        "monthly_wage": null,
+        "footballer_age": null,
+        "position": null,
+        "country": null
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Noni Madueke",
+        "week_wage": "£100,000",
+        "monthly_wage": "£5,200,000",
+        "footballer_age": "21",
+        "position": "AM RLC",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Malo Gusto",
+        "week_wage": "£100,000",
+        "monthly_wage": "£5,200,000",
+        "footballer_age": "20",
+        "position": "D/WB R, M C",
+        "country": "France"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Carney Chukwuemeka",
+        "week_wage": "£100,000",
+        "monthly_wage": "£5,200,000",
+        "footballer_age": "19",
+        "position": "AM C",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Thiago Silva",
+        "week_wage": "£96,000",
+        "monthly_wage": "£4,992,000",
+        "footballer_age": "38",
+        "position": "D C",
+        "country": "Brazil"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Axel Disasi",
+        "week_wage": "£78,000",
+        "monthly_wage": "£4,056,000",
+        "footballer_age": "25",
+        "position": "D C",
+        "country": "France"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Armando Broja",
+        "week_wage": "£78,000",
+        "monthly_wage": "£4,056,000",
+        "footballer_age": "21",
+        "position": "AM RL, ST",
+        "country": "Albania"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Trevoh Chalobah",
+        "week_wage": "£77,000",
+        "monthly_wage": "£4,004,000",
+        "footballer_age": "23",
+        "position": "D RC, DM",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Levi Colwill",
+        "week_wage": "£75,000",
+        "monthly_wage": "£3,900,000",
+        "footballer_age": "20",
+        "position": "D LC",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Roméo Lavia",
+        "week_wage": "£73,000",
+        "monthly_wage": "£3,796,000",
+        "footballer_age": "19",
+        "position": "DM",
+        "country": "Belgium"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Đorđe Petrović",
+        "week_wage": "£70,000",
+        "monthly_wage": "£3,640,000",
+        "footballer_age": "23",
+        "position": "GK",
+        "country": "Serbia"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": null,
+        "week_wage": null,
+        "monthly_wage": null,
+        "footballer_age": null,
+        "position": null,
+        "country": null
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Robert Sánchez",
+        "week_wage": "£68,000",
+        "monthly_wage": "£3,536,000",
+        "footballer_age": "25",
+        "position": "GK",
+        "country": "Spain"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Lesley Ugochukwu",
+        "week_wage": "£50,000",
+        "monthly_wage": "£2,600,000",
+        "footballer_age": "19",
+        "position": "DM",
+        "country": "France"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Deivid Washington",
+        "week_wage": "£42,000",
+        "monthly_wage": "£2,184,000",
+        "footballer_age": "18",
+        "position": "ST",
+        "country": "Brazil"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Malang Sarr",
+        "week_wage": "£34,000",
+        "monthly_wage": "£1,768,000",
+        "footballer_age": "24",
+        "position": "D LC",
+        "country": "France"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Marcus Bettinelli",
+        "week_wage": "£29,000",
+        "monthly_wage": "£1,508,000",
+        "footballer_age": "31",
+        "position": "GK",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Cole Palmer",
+        "week_wage": "£22,000",
+        "monthly_wage": "£1,144,000",
+        "footballer_age": "21",
+        "position": "AM RLC",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Conor Gallagher",
+        "week_wage": "£17,000",
+        "monthly_wage": "£884,000",
+        "footballer_age": "23",
+        "position": "AM C",
+        "country": "England"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Ian Maatsen",
+        "week_wage": "£11,000",
+        "monthly_wage": "£572,000",
+        "footballer_age": "21",
+        "position": "D/WB L, M C",
+        "country": "Netherlands"
+    },
+    {
+        "team": "chelsea-f.c.",
+        "name": "Jamie Cumming",
+        "week_wage": "£10,000",
+        "monthly_wage": "£520,000",
+        "footballer_age": "23",
+        "position": "GK",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Raphaël Varane",
+        "week_wage": "£350,000",
+        "monthly_wage": "£18,200,000",
+        "footballer_age": "30",
+        "position": "D C",
+        "country": "France"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Marcus Rashford",
+        "week_wage": "£300,000",
+        "monthly_wage": "£15,600,000",
+        "footballer_age": "25",
+        "position": "AM L, ST",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Casemiro",
+        "week_wage": "£300,000",
+        "monthly_wage": "£15,600,000",
+        "footballer_age": "31",
+        "position": "DM",
+        "country": "Brazil"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Jadon Sancho",
+        "week_wage": "£275,000",
+        "monthly_wage": "£14,300,000",
+        "footballer_age": "23",
+        "position": "AM RLC",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Bruno Fernandes",
+        "week_wage": "£250,000",
+        "monthly_wage": "£13,000,000",
+        "footballer_age": "28",
+        "position": "AM RC",
+        "country": "Portugal"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Anthony Martial",
+        "week_wage": "£250,000",
+        "monthly_wage": "£13,000,000",
+        "footballer_age": "27",
+        "position": "AM L, ST",
+        "country": "France"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Luke Shaw",
+        "week_wage": "£200,000",
+        "monthly_wage": "£10,400,000",
+        "footballer_age": "27",
+        "position": "D LC",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Mason Mount",
+        "week_wage": "£200,000",
+        "monthly_wage": "£10,400,000",
+        "footballer_age": "24",
+        "position": "AM RLC",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Harry Maguire",
+        "week_wage": "£200,000",
+        "monthly_wage": "£10,400,000",
+        "footballer_age": "30",
+        "position": "D C",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Christian Eriksen",
+        "week_wage": "£170,000",
+        "monthly_wage": "£8,840,000",
+        "footballer_age": "31",
+        "position": "DM, AM C",
+        "country": "Denmark"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Victor Lindelöf",
+        "week_wage": "£170,000",
+        "monthly_wage": "£8,840,000",
+        "footballer_age": "28",
+        "position": "D C",
+        "country": "Sweden"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": null,
+        "week_wage": null,
+        "monthly_wage": null,
+        "footballer_age": null,
+        "position": null,
+        "country": null
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Antony",
+        "week_wage": "£150,000",
+        "monthly_wage": "£7,800,000",
+        "footballer_age": "23",
+        "position": "AM R",
+        "country": "Brazil"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Donny van de Beek",
+        "week_wage": "£140,000",
+        "monthly_wage": "£7,280,000",
+        "footballer_age": "26",
+        "position": "AM C",
+        "country": "Netherlands"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Lisandro Martínez",
+        "week_wage": "£120,000",
+        "monthly_wage": "£6,240,000",
+        "footballer_age": "25",
+        "position": "D LC",
+        "country": "Argentina"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "André Onana",
+        "week_wage": "£110,000",
+        "monthly_wage": "£5,720,000",
+        "footballer_age": "27",
+        "position": "GK",
+        "country": "Cameroon"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Aaron Wan-Bissaka",
+        "week_wage": "£100,000",
+        "monthly_wage": "£5,200,000",
+        "footballer_age": "25",
+        "position": "D R",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Diogo Dalot",
+        "week_wage": "£87,000",
+        "monthly_wage": "£4,524,000",
+        "footballer_age": "24",
+        "position": "D/WB RL",
+        "country": "Portugal"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Rasmus Højlund",
+        "week_wage": "£78,000",
+        "monthly_wage": "£4,056,000",
+        "footballer_age": "20",
+        "position": "ST",
+        "country": "Denmark"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Sergio Reguilón",
+        "week_wage": "£78,000",
+        "monthly_wage": "£4,056,000",
+        "footballer_age": "26",
+        "position": "D/WB L",
+        "country": "Spain"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Scott McTominay",
+        "week_wage": "£78,000",
+        "monthly_wage": "£4,056,000",
+        "footballer_age": "26",
+        "position": "DM, AM C",
+        "country": "Scotland"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Tom Heaton",
+        "week_wage": "£62,000",
+        "monthly_wage": "£3,224,000",
+        "footballer_age": "37",
+        "position": "GK",
+        "country": "England"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": null,
+        "week_wage": null,
+        "monthly_wage": null,
+        "footballer_age": null,
+        "position": null,
+        "country": null
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Alejandro Garnacho",
+        "week_wage": "£53,000",
+        "monthly_wage": "£2,756,000",
+        "footballer_age": "19",
+        "position": "AM RL, ST",
+        "country": "Argentina"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Jonny Evans",
+        "week_wage": "£50,000",
+        "monthly_wage": "£2,600,000",
+        "footballer_age": "35",
+        "position": "D C",
+        "country": "N.Ireland"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Tyrell Malacia",
+        "week_wage": "£47,000",
+        "monthly_wage": "£2,444,000",
+        "footballer_age": "23",
+        "position": "D/WB L",
+        "country": "Netherlands"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Altay Bayındır",
+        "week_wage": "£43,000",
+        "monthly_wage": "£2,236,000",
+        "footballer_age": "25",
+        "position": "GK",
+        "country": "Türkiye"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Sofyan Amrabat",
+        "week_wage": "£30,000",
+        "monthly_wage": "£1,560,000",
+        "footballer_age": "26",
+        "position": "DM",
+        "country": "Morocco"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Amad Diallo",
+        "week_wage": "£28,000",
+        "monthly_wage": "£1,456,000",
+        "footballer_age": "20",
+        "position": "AM RLC, F C",
+        "country": "Ivory Coast"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Facundo Pellistri",
+        "week_wage": "£27,000",
+        "monthly_wage": "£1,404,000",
+        "footballer_age": "21",
+        "position": "AM R",
+        "country": "Uruguay"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Hannibal",
+        "week_wage": "£13,000",
+        "monthly_wage": "£676,000",
+        "footballer_age": "20",
+        "position": "AM C",
+        "country": "Tunisia"
+    },
+    {
+        "team": "manchester-united-f.c.",
+        "name": "Kobbie Mainoo",
+        "week_wage": "£10,000",
+        "monthly_wage": "£520,000",
+        "footballer_age": "18",
+        "position": "DM, AM C",
+        "country": "England"
+    }
+]
